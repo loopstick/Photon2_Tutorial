@@ -135,3 +135,55 @@ void loop() {
 
 - More on specific functions and variables soon! Let's make something happen in the real world first.
 
+ 
+***
+## BLINK
+
+***
+### Connecting to your Microcontroller - Pinouts
+In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
+
+ - {Photon2 GPIO pins and ports}(https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings)
+
+   
+ ![photon-2-pinout](/images/photon-2-pinout.svg)
+
+
+***
+### Using a solderless Breadboard to connect your microcontroller to other things (LEDs, motors, speakers, sensors, etc.)
+In order to connect inputs or outputs to your microcontroller you need to have a way of making electrical connections!
+
+The Solderless Breadboard
+- [How to use a Breadboard tutorial](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
+- [Breadboard connections](http://wiring.org.co/learning/tutorials/breadboard/)
+
+![Breadboard](/images/Breadboard_st.jpg)
+
+![Breadboard underside](/images/BreadboardUnderside_st.jpg)
+
+
+Use the breadboard to add an external LED.
+- LEDs must always be used with resistors so they don’t burn out.
+  - The resistor value can be anywhere from 100 ohm to 1k ohm.
+    - The lower the resistance, the brighter the light.
+    - Evil Mad Scientist explains it well [here](https://www.evilmadscientist.com/2012/resistors-for-leds/)
+  - Resistor Color Code!
+    - [Learn the Resistor Color Code in in 5 minutes](http://www.resistorguide.com/resistor-color-code/)
+
+    ![ResistorColorCode](/images/ResistorColorCode.png)
+
+- LEDs are polarized
+  - [identifying LED polarity](https://www.youtube.com/watch?v=SRDgNR_yCms)
+
+  ![led_example](/images/led_example.png)
+
+
+Here’s a picture showing how to connect the LED and resistor on the breadboard:
+
+![Photon2_LED](/images/Photon2_LED.jpg)
+
+Here is another view of this circuit:
+
+![Photon2_LED_bb2](/images/Photon2_LED_bb2.png)
+
+
