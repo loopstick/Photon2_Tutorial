@@ -34,16 +34,25 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
      - password
 
 #### Configure Photon 2 to connect with Cal IoT Wi-Fi (required to use your Photon2 on campus)
-  - In order to use Cal Wi-Fi with our Photons we must register our device with the Berkeley IoT Wi-Fi network
-  - In order to register the device we must first obtain the MAC address of our device
-  - In order to obtain the MAC address of our device we must install VSCode
-    - Install VSCode: [TDF-Software: Installing}(https://github.com/Berkeley-MDes/desinv-202/wiki/TDF-Software:-Installing)
-  - Connect to Berkeley IoT Wi-Fi: [Particle: connecting a Photon 2 to the UCB IoT network](https://github.com/Berkeley-MDes/desinv-202/wiki/Particle:-connecting-a-Photon-2-to-the-UCB-IoT-network)
-     - obtain MAC address 
-     - register MAC address with Berkeley-IoT Wi-Fi
-     - connect to Berkeley IoT (on campus)
+- In order to use Cal Wi-Fi with our Photons we must register our device with the Berkeley IoT Wi-Fi network
+- In order to register the device we must first obtain the MAC address of our device
+- The code below asks the device to print its own MAC address (to serial):
+- First we need to flash the code to our device.
+- go here -> [GetMacAddress.ino](https://go.particle.io/shared_apps/6507d59801c67400099a4ce3) (right-click: Open Link in New Tab)
+<!--  We 'll use the Particle Web IDE [https://build.particle.io/](https://build.particle.io/build/new) to flash this code  our device. 
+-->
+- You should see your device name in the lower right of the Web IDE window
+![WebIDE_01](https://github.com/loopstick/Photon2_Tutorial/assets/33500510/71887bbf-35a9-426b-8dbc-8cc2e40c2383)
 
-### Connected to Wi-Fi? Let's continue!
+- 
+- Use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor device serial output. 
+
+
+### Alternate methods of connecting to Wi-Fi exist! 
+- Install VSCode: [TDF-Software: Installing](https://github.com/Berkeley-MDes/desinv-202/wiki/TDF-Software:-Installing)
+- Connect to Berkeley IoT Wi-Fi: [Particle: connecting a Photon 2 to the UCB IoT network](https://github.com/Berkeley-MDes/desinv-202/wiki/Particle:-connecting-a-Photon-2-to-the-UCB-IoT-network)
+ 
+### Connected to Berkeley IoT Wi-Fi? Let's continue!
 
 - To keep things simple we'll begin writing code (apps) in the [Particle Web IDE](https://build.particle.io/build/new)
 
