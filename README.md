@@ -18,6 +18,8 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 
 ### Start Here
 
+- ~Install IDE~
+
 #### Initial Set Up (first time only)
 - Follow the steps at [setup.particle.io](https://setup.particle.io/)
   to get your Photon2 set up
@@ -31,15 +33,18 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
      - Wi-Fi Network name
      - password
 
- #### Configure Photon 2 to connect with Cal IoT Wi-Fi (required to use your Photon2 on campus)
+#### Configure Photon 2 to connect with Cal IoT Wi-Fi (required to use your Photon2 on campus)
   - In order to use Cal Wi-Fi with our Photons we must register our device with the Berkeley IoT Wi-Fi network
   - In order to register the device we must first obtain the MAC address of our device
   - In order to obtain the MAC address of our device we must install VSCode
-    - Install VSCode: https://github.com/Berkeley-MDes/desinv-202/wiki/TDF-Software:-Installing
-  - Connect to Berkeley IoT Wi-Fi: https://github.com/Berkeley-MDes/desinv-202/wiki/Particle:-connecting-a-Photon-2-to-the-UCB-IoT-network
+    - Install VSCode: [TDF-Software: Installing}(https://github.com/Berkeley-MDes/desinv-202/wiki/TDF-Software:-Installing)
+  - Connect to Berkeley IoT Wi-Fi: [Particle: connecting a Photon 2 to the UCB IoT network](https://github.com/Berkeley-MDes/desinv-202/wiki/Particle:-connecting-a-Photon-2-to-the-UCB-IoT-network)
      - obtain MAC address 
      - register MAC address with Berkeley-IoT Wi-Fi
-     - connect to Berkeley Iot (on campus)
+     - connect to Berkeley IoT (on campus)
+
+### Connected to Wi-Fi? Let's continue!
+
+- To keep things simple we'll begin writing code (apps) in the [Particle Web IDE](https://build.particle.io/build/new)
 
 
-- ~Install IDE~
