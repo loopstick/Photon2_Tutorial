@@ -39,13 +39,29 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - The code below asks the device to print its own MAC address (to serial):
 - First we need to flash the code to our device.
 - go here -> [GetMacAddress.ino](https://go.particle.io/shared_apps/6507d59801c67400099a4ce3) (right-click: Open Link in New Tab)
+
+![WebIDE_01](/images/WebIDE_01.png)
 <!--  We 'll use the Particle Web IDE [https://build.particle.io/](https://build.particle.io/build/new) to flash this code  our device. 
 -->
 - You should see your device name in the lower right of the Web IDE window
-![WebIDE_01](https://github.com/loopstick/Photon2_Tutorial/assets/33500510/71887bbf-35a9-426b-8dbc-8cc2e40c2383)
 
-- 
-- Use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor device serial output. 
+![WebIDE_01_Device](/images/WebIDE_01_Device.png)
+
+- Click on the lightning bolt icon to flash the code to your device
+
+![WebIDE_01_Flash](/images/WebIDE_01_Flash.png)
+- you should see some evidence of activity.
+  - you'll see a spinning arrow animation where the lightnining bolt was
+  - the RGB LED on your Photon 2 will blink various colors
+  - text at the bottom of the screen will let you know if the flash is successful
+- When the activity stops you should see the word ```Ready.``` at the bottom of the screen
+- It's working!!
+  - but why can't we see anything happening?
+- Use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor the serial output. (right-click: Open Link in New Tab)
+- BAM! There's your device's MAC address.
+  
+![USBserialLog_MACaddress](/images/USBserialLog_MACaddress.png)
+- Copy this address!!
 
 
 ### Alternate methods of connecting to Wi-Fi exist! 
