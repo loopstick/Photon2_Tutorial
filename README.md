@@ -32,7 +32,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
      - password
 
  #### Configure Photon 2 to connect with Cal IoT Wi-Fi (required to use your Photon2 on campus)
-  - In order to use Cal WiFi with our Photons we must register our device with the Berkeley IoT Wi-Fi network
+  - In order to use Cal Wi-Fi with our Photons we must register our device with the Berkeley IoT Wi-Fi network
   - In order to register the device we must first obtain the MAC address of our device
   - In order to obtain the MAC address of our device we must install VSCode
     - Install VSCode: https://github.com/Berkeley-MDes/desinv-202/wiki/TDF-Software:-Installing
