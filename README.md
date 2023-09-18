@@ -90,14 +90,15 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 ****
 ### Connected to Berkeley IoT Wi-Fi? Let's continue!
 
-To keep things simple we'll begin writing code (apps) in the [Particle Web IDE](https://build.particle.io/build/new)
+- To keep things simple we'll begin writing code (apps) in the [Particle Web IDE](https://build.particle.io/build/new)
 
-Later on we'll use VSCode to get into the really fun stuff.
+- Later on we'll use VSCode to get into the really fun stuff.
 
-#### Hello world -> Is this thing  on?
-<!-- Copy the code below into a new app or --> 
-navigate to this page [HelloWorld.ino](https://go.particle.io/shared_apps/6507e44623d6c200096a1253)
-<!-- ```
+
+### Hello world -> Is this thing  on?
+- Copy the code below into a new app or 
+- navigate to this page: [HelloWorld.ino](https://go.particle.io/shared_apps/6507e44623d6c200096a1253)
+```
 /*
   Hello World
   A "Hello, World!" program generally is a computer program that
@@ -117,34 +118,20 @@ void loop() {
     Serial.println("hello World");
     //wait 1 second between messages so we don't drive ourselves crazy
     delay(1000); 
-
-/*
-    option 1
-    Particle Web Serial monitor
-    https://docs.particle.io/tools/developer-tools/usb-serial/
-*/
-
-/* 
-    option 2
-    in terminal, type "particle serial monitor"
-    to see the Serial output
-    
-    this requires you to have installed the Particle Command Line tools
-*/
 ```
--->
 
-The Serial commands asks the Photon2 to send a message to your laptop. In order to see this message you'll need to use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor the serial output. (right-click: Open Link in New Tab)
+- The Serial commands asks the Photon2 to send a message to your laptop. In order to see this message you'll need to use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor the serial output. (right-click: Open Link in New Tab)
 
-a little code anatomy:
+  - a little code anatomy:
 
-the setup() function is called when a sketch starts.
+   - the setup() function is called when a sketch starts.
+     - Use it to initialize variables, pin modes, start using libraries, etc.
+     - The __setup()__ function will only run once, after each powerup or reset of the Photon2 microcontroller.
 
-Use it to initialize variables, pin modes, start using libraries, etc.
-The __setup()__ function will only run once, after each powerup or reset of the Photon2 microcontroller.
+  - The __loop()__ function does precisely what its name suggests, and loops consecutively through your list of instructions.
+    - Photon2 only executes one instruction at a time.
+  - "//" indicates a comment line meant for humans to read but ignored by the compiler that turn this text into machine code.
+    - code editors will recognize this and format the text accordingly
 
-The __loop()__ function does precisely what its name suggests, and loops consecutively through your list of instructions to control the Arduino.
-
-Photon2 only executes one instruction at a time.
-More on specific functions and variables soon! Let's make something happen in the real world first.
+- More on specific functions and variables soon! Let's make something happen in the real world first.
 
