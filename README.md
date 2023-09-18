@@ -141,8 +141,9 @@ a little code anatomy:
 the setup() function is called when a sketch starts.
 
 Use it to initialize variables, pin modes, start using libraries, etc.
-The setup() function will only run once, after each powerup or reset of the Photon2 microcontroller.
-the loop() function does precisely what its name suggests, and loops consecutively through your list of instructions to control the Arduino.
+The __setup()__ function will only run once, after each powerup or reset of the Photon2 microcontroller.
+
+The __loop()__ function does precisely what its name suggests, and loops consecutively through your list of instructions to control the Arduino.
 
 Photon2 only executes one instruction at a time.
 More on specific functions and variables soon! Let's make something happen in the real world first.
