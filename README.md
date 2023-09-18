@@ -8,9 +8,25 @@ The tutorial will focus on getting you up and running with Particle Photon2 quic
 
 We will cover how to connect your Photon2 to your laptop; how to understand, modify, and write programs (aka code); how to connect input devices and sensors to your Photon2 and read them from a program; and how to connect actuators (LEDs, motors, speakers) and control them from a program. Other topics will be covered as interest dictates and time permits.
 
-#### Additional Resources
-What is the Photon2 anyway?
+#### What is the Photon2 anyway?
  - Read about the Photon2: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#functional-description
 
- Photon2 GPIO pins and ports: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings
+ - Photon2 GPIO pins and ports: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings
  ![photon-2-pinout](/images/photon-2-pinout.svg)
+
+- Getting Started Dashboard: https://docs.particle.io/getting-started/getting-started/
+
+### Start Here
+
+#### Initial Set Up (first time only)
+- Follow the steps at [setup.particle.io](https://setup.particle.io/)
+  to get your Photon2 set up
+
+#### Configure Wi-Fi
+- in order to do anything with your Photon2 must be connected to wifi
+  - This isn't totally true, you _can_ work with the Photon2 not connected to wifi _BUT_ it's a bit complicated and we're aiming for simple and easy in this tutorial.
+  - luckily Particle has made it easy to configure wifi for Photon2
+  - https://docs.particle.io/tools/developer-tools/configure-wi-fi/
+
+
+- ~Install IDE~
