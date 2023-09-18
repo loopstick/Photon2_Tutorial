@@ -124,13 +124,13 @@ void loop() {
 
   - a little code anatomy:
 
-   - the setup() function is called when a sketch starts.
+   - the ``setup()`` function is called when a sketch starts.
      - Use it to initialize variables, pin modes, start using libraries, etc.
-     - The __setup()__ function will only run once, after each powerup or reset of the Photon2 microcontroller.
+     - The ``setup()`` function will only run once, after each powerup or reset of the Photon2 microcontroller.
 
-  - The __loop()__ function does precisely what its name suggests, and loops consecutively through your list of instructions.
+  - The ``loop()`` function does precisely what its name suggests, and loops consecutively through your list of instructions.
     - Photon2 only executes one instruction at a time.
-  - "//" indicates a comment line meant for humans to read but ignored by the compiler that turn this text into machine code.
+  - ``//`` indicates a comment line meant for humans to read but ignored by the compiler that turn this text into machine code.
     - code editors will recognize this and format the text accordingly
 
 - More on specific functions and variables soon! Let's make something happen in the real world first.
