@@ -35,12 +35,11 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
   - In order to use Cal WiFi with our Photons we must register our device with the Berkeley IoT Wi-Fi network
   - In order to register the device we must first obtain the MAC address of our device
   - In order to obtain the MAC address of our device we must install VSCode
-    - Navigate to: https://github.com/Berkeley-MDes/desinv-202/wiki/TDF-Software:-Installing
-    - follow Jeff's awesome tutorial to get VSCode installed
-  - Then, follow another awesome Jeff tutorial: https://github.com/Berkeley-MDes/desinv-202/wiki/Particle:-connecting-a-Photon-2-to-the-UCB-IoT-network
-     - to get the MAC address
-     - register that MAC address with Berkeley-IoT Wi-Fi
-     - and connect to Berkeley Iot (on campus)
+    - Install VSCode: https://github.com/Berkeley-MDes/desinv-202/wiki/TDF-Software:-Installing
+  - Connect to Berkeley IoT Wi-Fi: https://github.com/Berkeley-MDes/desinv-202/wiki/Particle:-connecting-a-Photon-2-to-the-UCB-IoT-network
+     - obtain MAC address 
+     - register MAC address with Berkeley-IoT Wi-Fi
+     - connect to Berkeley Iot (on campus)
 
 
 - ~Install IDE~
