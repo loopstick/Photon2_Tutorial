@@ -60,7 +60,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - Use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor the serial output. (right-click: Open Link in New Tab)
 - BAM! There's your device's MAC address.
   
-![USBserialLog_MACaddress2](/images/USBserialLog_MACaddress2.png)
+<!-- ![USBserialLog_MACaddress2](/images/USBserialLog_MACaddress2.png)--> 
 - Copy this address!!
 
 
