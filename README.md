@@ -38,7 +38,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - In order to register the device we must first obtain the MAC address of our device
 - The code below asks the device to print its own MAC address (to serial):
 - First we need to flash the code to our device.
-- copy the code below
+- copy the code below (hint: click the two little squares at the top left of the code block to copy the entire block at once)
 
 ```
 void setup() {
