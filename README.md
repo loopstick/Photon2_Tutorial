@@ -38,7 +38,8 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - In order to register the device we must first obtain the MAC address of our device
 - The code below asks the device to print its own MAC address (to serial):
 - First we need to flash the code to our device.
-- [https://build.particle.io/](https://build.particle.io/build/new)
+- copy the code below
+
 ```
 void setup() {
   Serial.begin();
@@ -52,10 +53,10 @@ void loop() {
   delay(1000);
 }
 ```
-
+- go here -> [https://build.particle.io/](https://build.particle.io/build/new)
+- 
 - We can monitor our device's serial output here: https://docs.particle.io/tools/developer-tools/usb-serial/
-- but first we need to flash the code to our device.
-- [https://build.particle.io/](https://build.particle.io/build/new)
+
 - 
 
 ### Alternate methods of connecting to Wi-Fi exist! 
