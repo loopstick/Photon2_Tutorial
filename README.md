@@ -52,7 +52,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
   - You can reveal your code sidebar by clicking the <> icon on the left
     
   - ![WebIDE_RevealCode](/images/WebIDE_RevealCode.png) 
-  - you can copy this code to your own file space
+  - you can also copy this code to your own file space
     
   -  ![WebIDE_CopyApp](/images/WebIDE_CopyApp.png)  WebIDE_CopyApp.png
 
