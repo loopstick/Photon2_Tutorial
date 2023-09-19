@@ -49,20 +49,22 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 ![WebIDE_01](/images/WebIDE_01.png)
 
 - We 'll use the Particle Web IDE [https://build.particle.io/](https://build.particle.io/build/) to flash this code to our device.
-- You can reveal your code sidebar by clicking the <> icon on the left
+  - You can reveal your code sidebar by clicking the <> icon on the left
     
-- ![WebIDE_RevealCode](/images/WebIDE_RevealCode2.png) 
-- you can also copy this code to your own file space
-    
--  ![WebIDE_CopyApp](/images/WebIDE_CopyApp2.png)  
+![WebIDE_RevealCode](/images/WebIDE_RevealCode2.png) 
 
-- You should see your device name in the lower right of the Web IDE window
+  - you can also copy this code to your own file space
+    
+![WebIDE_CopyApp](/images/WebIDE_CopyApp2.png)  
+
+  - You should see your device name in the lower right of the Web IDE window
 
 ![WebIDE_01_Device](/images/WebIDE_01_Device.png)
 
 - Click on the lightning bolt icon to flash the code to your device
 
 ![WebIDE_01_Flash](/images/WebIDE_01_Flash.png)
+
 - you should see some evidence of activity.
   - you'll see a spinning arrow animation where the lightnining bolt was
   - the RGB LED on your Photon 2 will blink various colors
