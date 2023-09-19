@@ -53,7 +53,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
     
 ![WebIDE_RevealCode](/images/WebIDE_RevealCode2.png) 
 
-- copy this code (app) to your own file space
+- copy this app to your own file space
     
 ![WebIDE_CopyApp](/images/WebIDE_CopyApp2.png)  
 
