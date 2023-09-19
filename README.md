@@ -12,7 +12,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 #### What is the Photon2 anyway?
  - Read about the Photon2: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#functional-description
 
- - Photon2 GPIO pins and ports: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings
+<!-- - Photon2 GPIO pins and ports: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings -->
 
  ![photon-2-pinout](/images/photon-2-pinout.svg)
 
@@ -23,12 +23,13 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 <!--- - Install IDE~  -->
 
 #### Initial Set Up (first time only)
-- Follow the steps at [setup.particle.io](https://setup.particle.io/)
+- create a Particle account [particle.io/signup](https://login.particle.io/signup)
+- collow the steps at [setup.particle.io](https://setup.particle.io/)
   to get your Photon2 set up
 
 #### Configure Wi-Fi (do this at home)
-- in order to do anything with your Photon2 must be connected to wifi
-  - This isn't totally true, you _can_ work with the Photon2 not connected to Wi-Fi _BUT_ it's a bit complicated and we're aiming for simple and easy in this tutorial.
+- in order to get started it's easiest if you are connected to wifi
+  <!-- This isn't totally true, you _can_ work with the Photon2 not connected to Wi-Fi _BUT_ it's a bit complicated and we're aiming for simple and easy in this tutorial.-->
   - luckily Particle has made it easy to configure wifi for Photon2
 - Navigate to [Particle Configure Wi-Fi](https://docs.particle.io/tools/developer-tools/configure-wi-fi/) page
 <!--  [UC Berkeley Wi-Fi Portal](https://portal.berkeley.edu/people/wifi_access) -->
@@ -59,7 +60,6 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
   - you'll see a spinning arrow animation where the lightnining bolt was
   - the RGB LED on your Photon 2 will blink various colors
   - text at the bottom of the screen will let you know if the flash is successful
-- When the activity stops you should see the word ```Ready.``` at the bottom of the screen
 - It's working!!
   - but why can't we see anything happening?
 - Use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor the serial output. (right-click: Open Link in New Tab)
@@ -67,7 +67,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - ```XX:XX:XX:XX:XX:XX```
   
 <!-- ![USBserialLog_MACaddress2](/images/USBserialLog_MACaddress2.png)--> 
-- Copy this address!!
+- Copy this address somewhere safe and bring it with you to campus so that you can get onto the IoT network
 
 #### Register MAC Address with Berkeley IoT Wi-Fi (-> do this anywhere)
 - Navigate to the [UC Berkeley Wi-Fi Portal](https://portal.berkeley.edu/people/wifi_access)
@@ -75,7 +75,8 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - click ```Create New```
 - enter in the MAC address you copied in the earlier steps
 - issue the device a name
-- copy your Berkeley-IoT password somewhere SAFE so that you will remember it!
+- __copy your Berkeley-IoT password somewhere SAFE so that you will remember it!__
+   - this password is only shown once. It will never be shown again...   
 
 #### Connect Photon2 Berkeley IoT Wi-Fi (-> do this on campus)
 - Navigate to: https://docs.particle.io/tools/developer-tools/configure-wi-fi/
