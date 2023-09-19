@@ -13,6 +13,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
  - Read about the Photon2: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#functional-description
 
  - Photon2 GPIO pins and ports: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings
+
  ![photon-2-pinout](/images/photon-2-pinout.svg)
 
 - Getting Started Dashboard: https://docs.particle.io/getting-started/getting-started/
