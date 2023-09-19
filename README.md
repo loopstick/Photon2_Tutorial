@@ -29,7 +29,8 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - in order to do anything with your Photon2 must be connected to wifi
   - This isn't totally true, you _can_ work with the Photon2 not connected to Wi-Fi _BUT_ it's a bit complicated and we're aiming for simple and easy in this tutorial.
   - luckily Particle has made it easy to configure wifi for Photon2
-- Navigate to the [UC Berkeley Wi-Fi Portal](https://portal.berkeley.edu/people/wifi_access)
+- Navigate to [Particle Configure Wi-Fi](https://docs.particle.io/tools/developer-tools/configure-wi-fi/) page
+<!--  [UC Berkeley Wi-Fi Portal](https://portal.berkeley.edu/people/wifi_access) -->
   - follow the prompts to enter your wifi credentials
      - Wi-Fi Network name
      - password
