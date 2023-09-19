@@ -12,7 +12,8 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 #### What is the Photon2 anyway?
  - Read about the Photon2: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#functional-description
 
- - Photon2 GPIO pins and ports: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings
+<!-- - Photon2 GPIO pins and ports: https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings -->
+
  ![photon-2-pinout](/images/photon-2-pinout.svg)
 
 - Getting Started Dashboard: https://docs.particle.io/getting-started/getting-started/
@@ -22,14 +23,16 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 <!--- - Install IDE~  -->
 
 #### Initial Set Up (first time only)
-- Follow the steps at [setup.particle.io](https://setup.particle.io/)
+- create a Particle account [particle.io/signup](https://login.particle.io/signup)
+- collow the steps at [setup.particle.io](https://setup.particle.io/)
   to get your Photon2 set up
 
 #### Configure Wi-Fi (do this at home)
-- in order to do anything with your Photon2 must be connected to wifi
-  - This isn't totally true, you _can_ work with the Photon2 not connected to Wi-Fi _BUT_ it's a bit complicated and we're aiming for simple and easy in this tutorial.
+- in order to get started it's easiest if you are connected to wifi
+  <!-- This isn't totally true, you _can_ work with the Photon2 not connected to Wi-Fi _BUT_ it's a bit complicated and we're aiming for simple and easy in this tutorial.-->
   - luckily Particle has made it easy to configure wifi for Photon2
-- Navigate to the [UC Berkeley Wi-Fi Portal](https://portal.berkeley.edu/people/wifi_access)
+- Navigate to [Particle Configure Wi-Fi](https://docs.particle.io/tools/developer-tools/configure-wi-fi/) page
+<!--  [UC Berkeley Wi-Fi Portal](https://portal.berkeley.edu/people/wifi_access) -->
   - follow the prompts to enter your wifi credentials
      - Wi-Fi Network name
      - password
@@ -44,8 +47,15 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - go here -> [GetMacAddress.ino](https://go.particle.io/shared_apps/6507d59801c67400099a4ce3) (right-click: Open Link in New Tab)
 
 ![WebIDE_01](/images/WebIDE_01.png)
-<!--  We 'll use the Particle Web IDE [https://build.particle.io/](https://build.particle.io/build/new) to flash this code  our device. 
--->
+
+- We 'll use the Particle Web IDE [https://build.particle.io/](https://build.particle.io/build/) to flash this code to our device.
+  - You can reveal your code sidebar by clicking the <> icon on the left
+    
+  - ![WebIDE_RevealCode](/images/WebIDE_RevealCode.png) 
+  - you can copy this code to your own file space
+    
+  -  ![WebIDE_CopyApp](/images/WebIDE_CopyApp.png)  WebIDE_CopyApp.png
+
 - You should see your device name in the lower right of the Web IDE window
 
 ![WebIDE_01_Device](/images/WebIDE_01_Device.png)
@@ -57,7 +67,6 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
   - you'll see a spinning arrow animation where the lightnining bolt was
   - the RGB LED on your Photon 2 will blink various colors
   - text at the bottom of the screen will let you know if the flash is successful
-- When the activity stops you should see the word ```Ready.``` at the bottom of the screen
 - It's working!!
   - but why can't we see anything happening?
 - Use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor the serial output. (right-click: Open Link in New Tab)
@@ -65,7 +74,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - ```XX:XX:XX:XX:XX:XX```
   
 <!-- ![USBserialLog_MACaddress2](/images/USBserialLog_MACaddress2.png)--> 
-- Copy this address!!
+- Copy this address somewhere safe and bring it with you to campus so that you can get onto the IoT network
 
 #### Register MAC Address with Berkeley IoT Wi-Fi (-> do this anywhere)
 - Navigate to the [UC Berkeley Wi-Fi Portal](https://portal.berkeley.edu/people/wifi_access)
@@ -73,7 +82,8 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - click ```Create New```
 - enter in the MAC address you copied in the earlier steps
 - issue the device a name
-- copy your Berkeley-IoT password somewhere SAFE so that you will remember it!
+- __copy your Berkeley-IoT password somewhere SAFE so that you will remember it!__
+   - this password is only shown once. It will never be shown again...   
 
 #### Connect Photon2 Berkeley IoT Wi-Fi (-> do this on campus)
 - Navigate to: https://docs.particle.io/tools/developer-tools/configure-wi-fi/
@@ -134,4 +144,57 @@ void loop() {
     - code editors will recognize this and format the text accordingly
 
 - More on specific functions and variables soon! Let's make something happen in the real world first.
+
+ 
+***
+## BLINK
+https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/
+
+***
+### Connecting to your Microcontroller - Pinouts
+In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
+
+ - {Photon2 GPIO pins and ports}(https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings)
+
+   
+ ![photon-2-pinout](/images/photon-2-pinout.svg)
+
+
+***
+### Using a solderless Breadboard to connect your microcontroller to other things (LEDs, motors, speakers, sensors, etc.)
+In order to connect inputs or outputs to your microcontroller you need to have a way of making electrical connections!
+
+The Solderless Breadboard
+- [How to use a Breadboard tutorial](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
+- [Breadboard connections](http://wiring.org.co/learning/tutorials/breadboard/)
+
+![Breadboard](/images/Breadboard_st.jpg)
+
+![Breadboard underside](/images/BreadboardUnderside_st.jpg)
+
+
+Use the breadboard to add an external LED.
+- LEDs must always be used with resistors so they don’t burn out.
+  - The resistor value can be anywhere from 100 ohm to 1k ohm.
+    - The lower the resistance, the brighter the light.
+    - Evil Mad Scientist explains it well [here](https://www.evilmadscientist.com/2012/resistors-for-leds/)
+  - Resistor Color Code!
+    - [Learn the Resistor Color Code in in 5 minutes](http://www.resistorguide.com/resistor-color-code/)
+
+    ![ResistorColorCode](/images/ResistorColorCode.png)
+
+- LEDs are polarized
+  - [identifying LED polarity](https://www.youtube.com/watch?v=SRDgNR_yCms)
+
+  ![led_example](/images/led_example.png)
+
+
+Here’s a picture showing how to connect the LED and resistor on the breadboard:
+
+![Photon2_LED](/images/Photon2_LED.jpg)
+
+Here is another view of this circuit:
+
+![Photon2_LED_bb2](/images/Photon2_LED_bb2.png)
+
 
