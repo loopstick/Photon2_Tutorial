@@ -45,9 +45,9 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - The code below asks the device to print its own MAC address (to serial):
 - First we need to flash the code to our device.
 - go here -> [GetMacAddress.ino](https://go.particle.io/shared_apps/6507d59801c67400099a4ce3) (right-click: Open Link in New Tab)
-  - or copy the code below into the Particle Web IDE
-  ```
-  void setup() {
+  - or copy the code below into the [Particle Web IDE](https://build.particle.io/build/)
+```
+void setup() {
   Serial.begin();
 }
 
@@ -57,12 +57,12 @@ void loop() {
   for (int i=0; i<6; i++) 
     Serial.printf("%02x%s", mac[i], i != 5 ? ":" : "\r\n");
   delay(1000);
-}```
-
+}
+```
 <!-- ![WebIDE_01](/images/WebIDE_01.png)-->
 
-- We 'll use the Particle Web IDE [https://build.particle.io/](https://build.particle.io/build/) to flash this code to our device.
-- reveal your code sidebar by clicking the <> icon on the left
+- We 'll use the [Particle Web IDE](https://build.particle.io/build/) to flash this code to our device.
+  - reveal your code sidebar by clicking the <> icon on the left
     
 ![WebIDE_RevealCode](/images/WebIDE_RevealCode2.png) 
 
