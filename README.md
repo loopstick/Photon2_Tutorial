@@ -54,7 +54,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
   - ![WebIDE_RevealCode](/images/WebIDE_RevealCode.png) 
   - you can also copy this code to your own file space
     
-  -  ![WebIDE_CopyApp](/images/WebIDE_CopyApp.png)  WebIDE_CopyApp.png
+  -  ![WebIDE_CopyApp](/images/WebIDE_CopyApp.png)  
 
 - You should see your device name in the lower right of the Web IDE window
 
