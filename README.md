@@ -53,7 +53,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
     
 ![WebIDE_RevealCode](/images/WebIDE_RevealCode2.png) 
 
-- copy this code to your own file space
+- copy this code (app) to your own file space
     
 ![WebIDE_CopyApp](/images/WebIDE_CopyApp2.png)  
 
@@ -109,7 +109,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 
 ### Hello world -> Is this thing  on?
 - Copy the code below into a new app or 
-- navigate to this page: [HelloWorld.ino](https://go.particle.io/shared_apps/6507e44623d6c200096a1253)
+- navigate to this page: [HelloWorld.ino](https://go.particle.io/shared_apps/6507e44623d6c200096a1253) and copy the app.
 ```
 /*
   Hello World
