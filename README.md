@@ -36,11 +36,11 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
      - Wi-Fi Network name
      - password
 
-### 3: Configure Photon 2 to connect with Cal IoT Wi-Fi (Do this at home -> required to use your Photon2 on campus)
+### Configure Photon 2 to connect with Cal IoT Wi-Fi (Do this at home -> required to use your Photon2 on campus)
 - In order to use Cal Wi-Fi with our Photons we must register our device with the Berkeley IoT Wi-Fi network (using its MAC address)
 - In order to register the device we must first obtain the MAC address of our device
 
-#### 4: Get Mac Address (-> do this at home)
+#### 3: Get Mac Address (-> do this at home)
 - The code below asks the device to print its own MAC address (to serial):
 - First we need to flash the code to our device.
 - go here -> [GetMacAddress.ino](https://go.particle.io/shared_apps/6507d59801c67400099a4ce3) (right-click: Open Link in New Tab)
@@ -90,7 +90,7 @@ void loop() {
 <!-- ![USBserialLog_MACaddress2](/images/USBserialLog_MACaddress2.png)--> 
 - Copy this address somewhere safe and bring it with you to campus so that you can get onto the IoT network
 
-#### 5: Register MAC Address with Berkeley IoT Wi-Fi (-> do this anywhere)
+#### 4: Register MAC Address with Berkeley IoT Wi-Fi (-> do this anywhere)
 - Navigate to the [UC Berkeley Wi-Fi Portal](https://portal.berkeley.edu/people/wifi_access)
 - under "Berkeley-IoT Wi-Fi Network Devices" click on Manage devices
 - click ```Create New```
@@ -99,7 +99,7 @@ void loop() {
 - __copy your Berkeley-IoT password somewhere SAFE so that you will remember it!__
    - this password is only shown once. It will never be shown again...   
 
-#### 6: Connect Photon2 Berkeley IoT Wi-Fi (-> do this on campus)
+#### 5: Connect Photon2 Berkeley IoT Wi-Fi (-> do this on campus)
 - Navigate to: https://docs.particle.io/tools/developer-tools/configure-wi-fi/
   - follow the prompts to enter your wifi credentials
      - Wi-Fi network name (Berkeley-IoT)
