@@ -209,8 +209,12 @@ Here’s a picture showing how to connect the LED and resistor on the breadboard
 
 ![Photon2_LED](/images/Photon2_LED.jpg)
 
-Here is another view of this circuit:
+Here is another view of this circuit, breadboard view in [Fritzing](https://fritzing.org/):
 
 ![Photon2_LED_bb3](/images/Photon2_LED_bb3.png)
+
+Here is another view of this circuit, the schematic diagram:
+
+![Photon2_LED_schem](/images/Photon2_LED_schem.png)
 
 
