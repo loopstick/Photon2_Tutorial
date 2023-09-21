@@ -206,7 +206,8 @@ The Solderless Breadboard
 
 - Connect the anode (+) of the LED to pin 17 and 
 
-- Connect the cathode (-) of the LED the anode to one leg of the resistor
+- Connect the cathode (-) of the LED the anode to one leg of a 220Ω (ohm) resistor
+  - 220Ω = red - red - brown - gold
 
 - Connect the other leg of the resistor to ground (GND)
 
@@ -237,6 +238,7 @@ _Can we blink both LEDs?_
 
 __Yes!!__
 
+### 10: Light up internal AND external LEDs
 find example code here -> [Internal/External LED Blink app](https://go.particle.io/shared_apps/650b9c1901c67400099a5769) (right-click: Open Link in New Tab)
 
 - copy this app to your own file space
@@ -251,29 +253,65 @@ internal and external LED should blink alternately!
 ![P2T_Blink_IntExt](https://github.com/loopstick/Photon2_Tutorial/assets/33500510/9f6dc5d2-c129-45d5-ab98-e92e16a1e93c)
 -->
 
-***
 
 ***
-### How to use a sensor: analogRead() 
+### 11: How to use a sensor: analogRead() 
 - partial duplicate information of Particle's ["Blink an LED hardware examples"]
+  - but we're going to do it now withOUT sending data to the cloud because each packet of data we send to the cloud counts towards total monthly use and over a certain amount we have to pay for the data we're sending...
 
-- Don't  remove the LED and resistor from that last step
+- Don't remove the LED and resistor from the last step
 
 - Connect a LDR (light dependent resistor) anywhere on the breadboard
 
 - Connect one leg of the LDR to 3.3V
 
 - Connect the other leg of the LDR to A1 (analog input 1) AND one leg of a 10kΩ (kilo-ohm) resistor
+  - 10kΩ = brown - black - orange - gold
 
 - Connect the other leg of the 10kΩ resistor to ground (GND)
 
 like this:
-![Photon2_LED](/Fritzings/Photon2_LED_LDR/Photon2_LED.jpg)
+![Photon2_LED_pic](/Fritzings/Photon2_LED_LDR/Photon2_LED_pic.jpg)
 
 ![Photon2_LED_bb](/Fritzings/Photon2_LED_LDR/Photon2_LED_bb.png)
 
+Once you've got the circuit built head over to the Web IDE and let's ~write~ copy some code:
 
-https://github.com/loopstick/Photon2_Tutorial/blob/main/Fritzings/Photon2_LED_LDR/Photon2_LED.jpg
+find example code here -> [P2T_LED_LDR_V1](https://go.particle.io/shared_apps/650bb0ad23d6c200156a19c5)  (right-click: Open Link in New Tab)
+
+- copy this app to your own file space
+  
+- flash the app to your hardware
+
+What happens?
+
+hint: Remember the [USB Serial Monitor](https://docs.particle.io/tools/developer-tools/usb-serial/) from way back when we had to find the Mac address of our device?
+
+![P2T_LED_LDR_v1](/images/P2T_LED_LDR_v1.png)
+
+uh oh, that doesn't look right.
+
+_what's wrong?_
+
+Try this
+
+find example code here -> [P2T_LED_LDR_V2](https://go.particle.io/shared_apps/650bb0ad23d6c200156a19c5)  (right-click: Open Link in New Tab)
+
+- copy this app to your own file space
+  
+- flash the app to your hardware
+
+
+***
+ 
+***
+
+### Want More?
+
+There are a ton of great examples built in to the Arduino IDE
+
+Download and install the standalone [Arduino IDE](https://www.arduino.cc/en/software) or try out the [Arduino Web IDE](https://create.arduino.cc/editor/loopstick/46f2f8c3-a40e-469e-bddd-e2673161a1c2)
+
 
 
 
