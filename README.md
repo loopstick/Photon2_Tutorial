@@ -119,7 +119,7 @@ void loop() {
 - Later on we'll use VSCode to get into the really fun stuff.
 
 
-### Hello world -> Is this thing  on?
+### 7: Hello world -> Is this thing  on?
 - Copy the code below into a new app or 
 - navigate to this page: [HelloWorld.ino](https://go.particle.io/shared_apps/6507e44623d6c200096a1253) and copy the app.
 ```
@@ -161,7 +161,7 @@ void loop() {
 
  
 ***
-## BLINK
+## 8: BLINK
 use the Particle Tutorial!
 
 https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/
@@ -170,14 +170,14 @@ https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/
 ### Connecting to your Microcontroller - Pinouts
 In order to connect inputs or outputs to your microcontroller you need to know where the GPIO (general-purpose input/output) pins are!
 
- - {Photon2 GPIO pins and ports}(https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings)
+ - [Photon2 GPIO pins and ports](https://docs.particle.io/reference/datasheets/wi-fi/photon-2-datasheet/#pin-markings)
 
-   
  ![photon-2-pinout](/images/photon-2-pinout.svg)
 
-
 ***
-### Using a solderless Breadboard to connect your microcontroller to other things (LEDs, motors, speakers, sensors, etc.)
+### Using a solderless Breadboard to connect your microcontroller to other things (LEDs, motors, speakers, sensors, etc.) 
+- partial duplicate information of Particle's ["Blink an LED hardware examples"](https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/)
+
 In order to connect inputs or outputs to your microcontroller you need to have a way of making electrical connections!
 
 The Solderless Breadboard
@@ -188,8 +188,8 @@ The Solderless Breadboard
 
 ![Breadboard underside](/images/BreadboardUnderside_st.jpg)
 
-
-Use the breadboard to add an external LED.
+***
+### 9: Use the breadboard to add an external LED.
 - LEDs must always be used with resistors so they don’t burn out.
   - The resistor value can be anywhere from 100 ohm to 1k ohm.
     - The lower the resistance, the brighter the light.
@@ -204,6 +204,8 @@ Use the breadboard to add an external LED.
 
   ![led_example](/images/led_example.png)
 
+Connect the LED to pin 17
+
 
 Here’s a picture showing how to connect the LED and resistor on the breadboard:
 
@@ -211,10 +213,19 @@ Here’s a picture showing how to connect the LED and resistor on the breadboard
 
 Here is another view of this circuit, breadboard view in [Fritzing](https://fritzing.org/):
 
-![Photon2_LED_bb3](/images/Photon2_LED_bb3.png)
+![Photon2_LED_bb](/images/Photon2_LED_bb.png)
 
 Here is another view of this circuit, the schematic diagram:
 
 ![Photon2_LED_schem](/images/Photon2_LED_schem.png)
+
+***
+### How to use a sensor: analogRead() 
+- partial duplicate information of Particle's ["Blink an LED hardware examples"]
+
+
+
+
+
 
 
