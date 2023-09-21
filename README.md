@@ -273,7 +273,7 @@ internal and external LED should blink alternately!
 like this:
 ![Photon2_LED_pic](/Fritzings/Photon2_LED_LDR/Photon2_LED_pic.jpg)
 
-![Photon2_LED_bb](/Fritzings/Photon2_LED_LDR/Photon2_LED_bb.png)
+![Photon2_LED_LDR_bb](/Fritzings/Photon2_LED_LDR/Photon2_LED_LDR_bb.png) 
 
 Once you've got the circuit built head over to the Web IDE and let's ~write~ copy some code:
 
@@ -291,11 +291,9 @@ hint: Remember the [USB Serial Monitor](https://docs.particle.io/tools/developer
 
 uh oh, that doesn't look right.
 
-_what's wrong?_
+_what's wrong?_   <br><br>
 
-Try this
-
-find example code here -> [P2T_LED_LDR_V2](https://go.particle.io/shared_apps/650bb0ad23d6c200156a19c5)  (right-click: Open Link in New Tab)
+Try this... find example code here -> [P2T_LED_LDR_V2](https://go.particle.io/shared_apps/650bb0ad23d6c200156a19c5)  (right-click: Open Link in New Tab)
 
 - copy this app to your own file space
   
