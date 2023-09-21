@@ -268,9 +268,12 @@ internal and external LED should blink alternately!
 - Connect the other leg of the 10kΩ resistor to ground (GND)
 
 like this:
-![Photon2_LED](/Photon2_LED_LDR/Photon2_LED.jpg)
+![Photon2_LED](/Fritzings/Photon2_LED_LDR/Photon2_LED.jpg)
 
-![Photon2_LED_bb](/Photon2_LED_LDR/Photon2_LED_bb.png)
+![Photon2_LED_bb](/Fritzings/Photon2_LED_LDR/Photon2_LED_bb.png)
+
+
+https://github.com/loopstick/Photon2_Tutorial/blob/main/Fritzings/Photon2_LED_LDR/Photon2_LED.jpg
 
 
 
