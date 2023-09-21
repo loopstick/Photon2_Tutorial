@@ -24,7 +24,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 
 #### 1: Initial Set Up (first time only)
 - create a Particle account [particle.io/signup](https://login.particle.io/signup)
-- collow the steps at [setup.particle.io](https://setup.particle.io/)
+- follow the steps at [setup.particle.io](https://setup.particle.io/)
   to get your Photon2 set up
 
 #### 2: Configure Wi-Fi (do this at home)
@@ -204,8 +204,11 @@ The Solderless Breadboard
 
   ![led_example](/images/led_example.png)
 
-Connect the LED to pin 17
+- Connect the anode (+) of the LED to pin 17 and 
 
+- Connect the cathode (-) of the LED the anode to one leg of the resistor
+
+- Connect the other leg of the resistor to ground (GND)
 
 Here’s a picture showing how to connect the LED and resistor on the breadboard:
 
@@ -219,9 +222,56 @@ Here is another view of this circuit, the schematic diagram:
 
 ![Photon2_LED_schem](/images/Photon2_LED_schem.png)
 
+
+find example code here -> [External LED Blink app](https://go.particle.io/shared_apps/650b9c3023d6c200096a1d30) (right-click: Open Link in New Tab)
+
+- copy this app to your own file space
+  
+- flash the app to your hardware
+
+You should find that the external LED blink on and off just like the onboard LED was doing.
+
+Yay!
+
+_Can we blink both LEDs?_
+
+__Yes!!__
+
+find example code here -> [Internal/External LED Blink app](https://go.particle.io/shared_apps/650b9c1901c67400099a5769) (right-click: Open Link in New Tab)
+
+- copy this app to your own file space
+  
+- flash the app to your hardware
+
+internal and external LED should blink alternately!
+
+![P2T_Blink_IntExt](/images/P2T_Blink_IntExt.gif)
+
+<!-- 
+![P2T_Blink_IntExt](https://github.com/loopstick/Photon2_Tutorial/assets/33500510/9f6dc5d2-c129-45d5-ab98-e92e16a1e93c)
+-->
+
+***
+
 ***
 ### How to use a sensor: analogRead() 
 - partial duplicate information of Particle's ["Blink an LED hardware examples"]
+
+- Don't  remove the LED and resistor from that last step
+
+- Connect a LDR (light dependent resistor) anywhere on the breadboard
+
+- Connect one leg of the LDR to 3.3V
+
+- Connect the other leg of the LDR to A1 (analog input 1) AND one leg of a 10kΩ (kilo-ohm) resistor
+
+- Connect the other leg of the 10kΩ resistor to ground (GND)
+
+like this:
+![Photon2_LED](/Photon2_LED_LDR/Photon2_LED.jpg)
+
+![Photon2_LED_bb](/Photon2_LED_LDR/Photon2_LED_bb.png)
+
 
 
 
