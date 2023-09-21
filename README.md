@@ -141,7 +141,8 @@ void loop() {
     //send 'Hello, world!' over the serial port
     Serial.println("hello World");
     //wait 1 second between messages so we don't drive ourselves crazy
-    delay(1000); 
+    delay(1000);
+}
 ```
 
 - The Serial commands asks the Photon2 to send a message to your laptop. In order to see this message you'll need to use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor the serial output. (right-click: Open Link in New Tab)
@@ -162,7 +163,7 @@ void loop() {
  
 ***
 ## 8: BLINK
-use the Particle Tutorial!
+use this Particle Tutorial to blink the on-board LED! (a blue light on the Photon, labeled D7)
 
 https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/
 
@@ -179,6 +180,8 @@ In order to connect inputs or outputs to your microcontroller you need to know w
 - partial duplicate information of Particle's ["Blink an LED hardware examples"](https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/)
 
 In order to connect inputs or outputs to your microcontroller you need to have a way of making electrical connections!
+You can place your Photon2 directly into a breadboard to make it easy to connect to each pin with jumper wires. 
+If you're following this tutorial, look ahead to see how we place the Photon 2 directly into the top of a breadboard. 
 
 The Solderless Breadboard
 - [How to use a Breadboard tutorial](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
@@ -192,21 +195,23 @@ The Solderless Breadboard
 
 ***
 ### 9: Use the breadboard to add an external LED.
-- LEDs must always be used with resistors so they don’t burn out.
+![resistor](https://m.media-amazon.com/images/I/41-iQFK49DL._SY445_SX342_QL70_FMwebp_.jpg)
+- LEDs must always be used with **resistors** so they don’t burn out.
   - The resistor value can be anywhere from 100 ohm to 1k ohm.
     - The lower the resistance, the brighter the light.
     - Evil Mad Scientist explains it well [here](https://www.evilmadscientist.com/2012/resistors-for-leds/)
-  - Resistor Color Code!
-    - [Learn the Resistor Color Code in in 5 minutes](http://www.resistorguide.com/resistor-color-code/)
+  - But how can you tell what value a resistor is? They are so small!
+    - Resistor Color Code! - The little colored stripes together tell us the resistance value. 
+      - [Learn the Resistor Color Code in in 5 minutes](http://www.resistorguide.com/resistor-color-code/)
 
     ![ResistorColorCode](/images/ResistorColorCode.png)
 
-- LEDs are polarized
+- LEDs are polarized - they have a positive and negative end. (Resistors are not polarized. You can flip them around!)
   - [identifying LED polarity](https://www.youtube.com/watch?v=SRDgNR_yCms)
 
   ![led_example](/images/led_example.png)
 
-- Connect the anode (+) of the LED to pin 17 and 
+- Connect a M/M jumper wire to the anode (+) of the LED, then connect the other end of the wire to pin 11- it's labeled 'S2' along the side of the Photon 2, and labeled SCK on the top of the device. (If you're using a breadboard as picure below, simply place this end of the jumper wire into row 11 on the left side of the Photon 2.)   
 
 - Connect the cathode (-) of the LED the anode to one leg of a 220Ω (ohm) resistor
   - 220Ω = red - red - brown - gold
