@@ -211,6 +211,6 @@ Here’s a picture showing how to connect the LED and resistor on the breadboard
 
 Here is another view of this circuit:
 
-![Photon2_LED_bb2](/images/Photon2_LED_bb2.png)
+![Photon2_LED_bb3](/images/Photon2_LED_bb3.png)
 
 
