@@ -306,13 +306,13 @@ find example code here -> [P2T_LED_LDR_V2](https://go.particle.io/shared_apps/65
  
 ***
 
-### Want More?
+## Want More?
 
-There are a ton of great examples built in to the Arduino IDE
+# There are a ton of great examples built in to the Arduino IDE
 
 Download and install the standalone [Arduino IDE](https://www.arduino.cc/en/software) or try out the [Arduino Web IDE](https://create.arduino.cc/editor/loopstick/46f2f8c3-a40e-469e-bddd-e2673161a1c2)
 
-
+Try copying from the Arduibno examples and porting to Photon2
 
 
 
