@@ -295,7 +295,8 @@ uh oh, that doesn't look right.
 
 _what's wrong?_   <br><br>
 
-Try this... find example code here -> [P2T_LED_LDR_V2](https://go.particle.io/shared_apps/650bb0ad23d6c200156a19c5)  (right-click: Open Link in New Tab)
+Try this... find example code here -> [P2T_LED_LDR_V2]
+(https://go.particle.io/shared_apps/650bb25423d6c200156a19d5))  (right-click: Open Link in New Tab)
 
 - copy this app to your own file space
   
