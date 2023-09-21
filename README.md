@@ -188,6 +188,8 @@ The Solderless Breadboard
 
 ![Breadboard underside](/images/BreadboardUnderside_st.jpg)
 
+![breadboard_perfBoard_bottom.jpg](/images/breadboard_perfBoard_bottom.jpg) 
+
 ***
 ### 9: Use the breadboard to add an external LED.
 - LEDs must always be used with resistors so they don’t burn out.
