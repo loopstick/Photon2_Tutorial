@@ -141,7 +141,8 @@ void loop() {
     //send 'Hello, world!' over the serial port
     Serial.println("hello World");
     //wait 1 second between messages so we don't drive ourselves crazy
-    delay(1000); 
+    delay(1000);
+}
 ```
 
 - The Serial commands asks the Photon2 to send a message to your laptop. In order to see this message you'll need to use the [Particle USB serial debug log](https://docs.particle.io/tools/developer-tools/usb-serial/) to monitor the serial output. (right-click: Open Link in New Tab)
