@@ -310,13 +310,13 @@ Try this... find example code here -> [P2T_LED_LDR_V2](https://go.particle.io/sh
  
 ***
 
-## Want More?
+# Want More?
 
-#try out the Particle Tutorials!
+### try out the Particle Hardware Examples!
 
-https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/
+[Particle Hardware Examples](https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/)
 
-# There are a ton of great examples built in to the Arduino IDE
+### There are also a ton of great examples built in to the Arduino IDE
 
 Download and install the standalone [Arduino IDE](https://www.arduino.cc/en/software) or try out the [Arduino Web IDE](https://create.arduino.cc/editor/loopstick/46f2f8c3-a40e-469e-bddd-e2673161a1c2)
 
