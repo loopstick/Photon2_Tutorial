@@ -121,7 +121,7 @@ void loop() {
 
 ### 7: Hello world -> Is this thing  on?
 - Copy the code below into a new app or 
-- navigate to this page: [HelloWorld.ino](https://go.particle.io/shared_apps/6507e44623d6c200096a1253) and copy the app.
+- navigate to this page: [HelloWorld.ino](https://go.particle.io/shared_apps/650ce28123d6c200096a2268) and copy the app.
 ```
 /*
   Hello World
