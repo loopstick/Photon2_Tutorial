@@ -245,7 +245,7 @@ _Can we blink both LEDs?_
 __Yes!!__
 
 ### 10: Light up internal AND external LEDs
-find example code here -> [Internal/External LED Blink app](https://go.particle.io/shared_apps/650b9c1901c67400099a5769) (right-click: Open Link in New Tab)
+find example code here -> [Internal/External LED Blink app](https://go.particle.io/shared_apps/650dc1a701c67400179a61ef) (right-click: Open Link in New Tab)
 
 - copy this app to your own file space
   
