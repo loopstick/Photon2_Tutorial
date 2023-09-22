@@ -163,9 +163,12 @@ void loop() {
  
 ***
 ## 8: BLINK
-use the Particle Tutorial!
+<!--use the Particle Tutorial!
 
 https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/
+-->
+
+[Blink example code](https://go.particle.io/shared_apps/650b95e223d6c200156a198c)
 
 ***
 ### Connecting to your Microcontroller - Pinouts
@@ -308,6 +311,10 @@ Try this... find example code here -> [P2T_LED_LDR_V2](https://go.particle.io/sh
 ***
 
 ## Want More?
+
+#try out the Particle Tutorials!
+
+https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/
 
 # There are a ton of great examples built in to the Arduino IDE
 
