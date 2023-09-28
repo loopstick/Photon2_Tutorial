@@ -309,6 +309,16 @@ Try this... find example code here -> [P2T_LED_LDR_V2](https://go.particle.io/sh
 - copy this app to your own file space
   
 - flash the app to your hardware
+  
+- Now you should see a more readable output in serial monitor.
+
+But wait, why doesn't the LED change in response to the changing sensor values??
+
+You're exactly right: "because we haven't written the code to do that yet".
+
+Give it a shot, see if you can add a few lines of code to add this functionality:
+- turn on the LED when dark (when the sensor value is below some threshold)
+- turn off the LED when dark (when the sensor value is above the threshold)
 
 
 ***
