@@ -36,6 +36,7 @@ We will cover how to connect your Photon2 to your laptop; how to understand, mod
 - in order to get started it's easiest if you are connected to wifi
   <!-- This isn't totally true, you _can_ work with the Photon2 not connected to Wi-Fi _BUT_ it's a bit complicated and we're aiming for simple and easy in this tutorial.-->
   - luckily Particle has made it easy to configure wifi for Photon2
+  	 - The following only works on Chrome (Windows, Mac, Linux, Chromebook, or Android, version 61 and later), Edge (version 79 or later), & Opera (Windows, Mac, Linux, or Android, version 48 or later)
 - Navigate to [Particle Configure Wi-Fi](https://docs.particle.io/tools/developer-tools/configure-wi-fi/) page
   - follow the prompts to enter your wifi credentials
      - Wi-Fi Network name
